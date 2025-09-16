@@ -1,0 +1,18 @@
+{
+	"name": "simple-queue-run",
+	"version": "1.0.0",
+	"description": "A simple task queue runner that supports concurrent execution and interval control between tasks.",
+	"main": "index.js",
+	"types": "types/simple_queue_run.d.ts",
+	"scripts": {
+		"test": "echo \"No tests specified\" && exit 0"
+	},
+	"keywords": [
+		"task",
+		"queue",
+		"concurrency",
+		"javascript",
+		"npm"
+	],
+	"license": "MIT"
+}

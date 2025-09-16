@@ -1,0 +1,11 @@
+# Ignore the following files and directories when publishing to npm
+node_modules
+dist
+*.log
+*.ts
+*.js.map
+*.d.ts
+README.md
+tsconfig.json
+package.json
+.npmignore
