@@ -2,9 +2,7 @@
 node_modules
 dist
 *.log
-*.ts
 *.js.map
-*.d.ts
 README.md
 tsconfig.json
 package.json

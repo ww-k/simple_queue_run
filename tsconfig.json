@@ -1,21 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "rootDir": "./"
-  },
-  "include": [
-    "simple_queue_run.js",
-    "index.js",
-    "types/**/*.d.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"rootDir": "./"
+	},
+	"include": [
+		"simple_queue_run.js",
+		"simple_queue_run.cjs",
+		"simple_queue_run.d.ts"
+	],
+	"exclude": ["node_modules", "dist"]
 }

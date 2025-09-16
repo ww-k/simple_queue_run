@@ -1,9 +1,15 @@
 {
 	"name": "simple-queue-run",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple task queue runner that supports concurrent execution and interval control between tasks.",
-	"main": "index.js",
-	"types": "types/simple_queue_run.d.ts",
+	"main": "./simple_queue_run.cjs",
+	"types": "./simple_queue_run.d.ts",
+	"module": "./simple_queue_run.js",
+	"exports": {
+		"import": "./simple_queue_run.js",
+		"require": "./simple_queue_run.cjs",
+		"./package.json": "./package.json"
+	},
 	"scripts": {
 		"test": "echo \"No tests specified\" && exit 0"
 	},
