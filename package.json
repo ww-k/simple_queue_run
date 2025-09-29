@@ -2,6 +2,10 @@
 	"name": "simple-queue-run",
 	"version": "1.0.2",
 	"description": "A simple task queue runner that supports concurrent execution and interval control between tasks.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ww-k/simple_queue_run.git"
+	},
 	"main": "./simple_queue_run.cjs",
 	"types": "./simple_queue_run.d.ts",
 	"module": "./simple_queue_run.js",
