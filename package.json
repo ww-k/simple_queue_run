@@ -1,6 +1,6 @@
 {
 	"name": "simple-queue-run",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A simple task queue runner that supports concurrent execution and interval control between tasks.",
 	"repository": {
 		"type": "git",
